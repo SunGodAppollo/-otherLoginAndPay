@@ -13,9 +13,9 @@ class wxLogin {
 	private function  getconfig(){
 		//微信扫码登陆配置
 		return  array(
-		'APPID'=>'wxa8d8e6944a0b8557',//应用唯一标识
-        'APPSECRET'=>'318ff0ea6e8c00898b9f98731a5aa07a',//应用唯一标识
-        'REDIRECT_URI'=>'http://99boliyuan.com/Home/Login/wxlogin.html',
+		'APPID'=>'xxxxxx',//应用唯一标识
+        'APPSECRET'=>'xxxxx',//应用唯一标识
+        'REDIRECT_URI'=>'http://xxxxxx/wxlogin.html',
         'SCOPE'=>'snsapi_login',//应用授权作用域
         'STATE'=>md5('boliyuanwx')//应用加密
 		);
